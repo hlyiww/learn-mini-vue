@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.06868d80.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"reactivity/effect.md"}'),c={name:"reactivity/effect.md"};function r(o,s,n,f,i,p){return a(),t("div")}const m=e(c,[["render",r]]);export{d as __pageData,m as default};
