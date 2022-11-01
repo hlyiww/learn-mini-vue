@@ -32,6 +32,7 @@ const config = defineConfig({
   title: "Learn Mini Vue",
   description: "Course Notes",
   themeConfig,
+  base: "/learn-mini-vue/",
 });
 
 export default config;
