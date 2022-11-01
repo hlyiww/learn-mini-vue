@@ -6,6 +6,9 @@
   "author": "yiwwhl <yiwwhl@qq.com>",
   "license": "MIT",
   "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "test": "jest"
   },
   "devDependencies": {
@@ -15,6 +18,8 @@
     "@types/jest": "^29.2.1",
     "babel-jest": "^29.2.2",
     "jest": "^29.2.2",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "vitepress": "^1.0.0-alpha.26",
+    "vue": "^3.2.41"
   }
 }
