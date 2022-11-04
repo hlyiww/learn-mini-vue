@@ -53,6 +53,10 @@
 - 收集是为了将代理对象各个属性所对应的数据操作存储起来，这些被存储起来的操作就是依赖，也是上文提到的 Effect
 - 当代理对象触发某个 key 的 set 时，该 key 所对应的值需要在此时发生变更，但是所有依赖该响应式的值也应当同步变更，这时我们就需要依次执行此前收集的依赖，也就是该 key 所对应的各种数据操作
 
+## 浅聊 effect 的 stop 实现
+
+- 在实现 stop 的过程中，我们通过传入一个 runner 去反查出该 runner 对应的 effect，以及该 effect 所对应的一系列 deps，这个过程用到了反向的收集，而这种灵活的思想是非常值得品味的
+
 ## 补充阅读
 
 - [Proxy 和 Reflec 扫盲](https://github.com/hlyiww/learn-mini-vue/issues/1)
