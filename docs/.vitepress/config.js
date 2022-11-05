@@ -11,7 +11,10 @@ const sidebar = [
   },
   {
     text: "Reactivity —— 响应式",
-    items: [{ text: "实现 Effect", link: "/reactivity/effect.md" }],
+    items: [
+      { text: "实现 Effect", link: "/reactivity/effect.md" },
+      { text: "readonly", link: "reactivity/readonly.md" },
+    ],
   },
 ];
 
